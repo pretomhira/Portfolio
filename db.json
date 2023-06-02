@@ -1,0 +1,31 @@
+{
+  "identityInfo": {
+    "name": "pretom das hira",
+    "title": "frontend developer",
+    "identity": [
+      { "id": 1, "key": "nationality", "value": "bangladeshi" },
+      { "id": 2, "key": "date of birth", "value": "January 16, 1996" },
+      { "id": 3, "key": "gender", "value": "male" },
+      {
+        "id": 4,
+        "key": "email",
+        "value": "freelancer.pretomhir@gmail.com"
+      },
+      {
+        "id": 5,
+        "key": "skype",
+        "value": "live:pretomdas7.pd"
+      },
+      {
+        "id": 6,
+        "key": "phone",
+        "value": "+880-1521211901"
+      },
+      {
+        "id": 7,
+        "key": "Adress",
+        "value": "dhaka-1204,bangladesh"
+      }
+    ]
+  }
+}

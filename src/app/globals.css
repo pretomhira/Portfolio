@@ -26,6 +26,34 @@
     rgb(var(--background-start-rgb));
 } */
 
+.primary-color {
+  @apply text-white;
+}
+
+.secondary-color {
+  @apply text-gray-400;
+}
+
+.tertiary-color {
+  @apply text-gray-100;
+}
+
 .root-layer {
-  @apply bg-gradient-to-tr from-black to-slate-800 h-screen;
+  @apply bg-gradient-to-tr from-black to-slate-800 h-screen max-w-7xl mx-auto pt-3;
+}
+
+.user-name {
+  @apply primary-color text-5xl font-bold capitalize  p-1;
+}
+
+.user-title {
+  @apply primary-color text-2xl uppercase  p-1;
+}
+
+.indentity-key {
+  @apply secondary-color text-lg font-medium capitalize p-1 w-36;
+}
+
+.indentity-value {
+  @apply tertiary-color text-lg capitalize p-1;
 }

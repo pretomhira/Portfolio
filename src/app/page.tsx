@@ -1,9 +1,12 @@
+import Identity from "./components/home/Identity";
+import Education from "./education/page";
+
 export default function Home() {
   return (
     <main>
-      <div className="uppercase font-bold">
-        <h1>Home</h1>
-      </div>
+      {/* @ts-expect-error Server Component */}
+      <Identity />
+      <Education />
     </main>
   );
 }
