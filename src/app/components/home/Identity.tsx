@@ -1,4 +1,5 @@
 import { getIdentityInfoData } from "@/app/api/data";
+import moment from "moment";
 
 type Identity = {
   id: string;
@@ -7,28 +8,34 @@ type Identity = {
 };
 
 type IdentityInfo = {
-  name: "string";
-  title: "string";
   identity: [Identity];
+};
+
+const age = (date: string) => {
+  let years = moment().diff(date, "years");
+  let months = Math.ceil(
+    (moment().diff(date, "months") / 12 - moment().diff(date, "years")) * 10
+  );
+  return `${years} years ${months} months`;
 };
 
 export default async function Identity() {
   const identityInfo: IdentityInfo = await getIdentityInfoData();
 
   return (
-    <div>
+    <div className="card-1 group">
       <div className="flex flex-col gap-5">
-        <div className="flex flex-col gap-2">
-          <div className="user-name">{identityInfo.name}</div>
-          <div className="user-title">{identityInfo.title}</div>
-        </div>
-
+        <div className="title-2">Identity</div>
         <div className="flex flex-col gap-2">
           {identityInfo.identity.map((identity: Identity) => (
             <div key={identity.id} className="flex flex-row gap-3">
-              <div className="indentity-key">{identity.key}</div>
-              <div className="secondary-color">:</div>
-              <div className="indentity-value">{identity.value}</div>
+              <div className="title-4">{identity.key}</div>
+              <div className="secondary-color">-</div>
+              {identity.key === "age" ? (
+                <div className="title-5">{age(identity.value)}</div>
+              ) : (
+                <div className="title-5">{identity.value}</div>
+              )}
             </div>
           ))}
         </div>

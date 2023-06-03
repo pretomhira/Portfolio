@@ -27,33 +27,44 @@
 } */
 
 .primary-color {
-  @apply text-white;
+  @apply text-gray-300;
 }
 
 .secondary-color {
-  @apply text-gray-400;
+  @apply text-gray-500;
 }
 
 .tertiary-color {
-  @apply text-gray-100;
+  @apply text-teal-500;
 }
 
 .root-layer {
-  @apply bg-gradient-to-tr from-black to-slate-800 h-screen max-w-7xl mx-auto pt-3;
+  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950  max-w-7xl mx-auto pt-3 cursor-default font-mono;
 }
 
-.user-name {
-  @apply primary-color text-5xl font-bold capitalize  p-1;
+.about-title {
+  @apply text-gray-500  text-base group-hover:text-white p-1 max-w-md text-left  duration-500 capitalize;
+}
+.title-1 {
+  @apply primary-color text-5xl font-bold capitalize  p-1 group-hover:text-white duration-300;
 }
 
-.user-title {
-  @apply primary-color text-2xl uppercase  p-1;
+.title-2 {
+  @apply primary-color text-3xl uppercase  p-1 group-hover:text-white duration-300;
 }
 
-.indentity-key {
-  @apply secondary-color text-lg font-medium capitalize p-1 w-36;
+.title-3 {
+  @apply primary-color text-2xl uppercase  p-1 font-medium;
 }
 
-.indentity-value {
-  @apply tertiary-color text-lg capitalize p-1;
+.title-4 {
+  @apply secondary-color text-lg font-medium capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
+}
+
+.title-5 {
+  @apply tertiary-color text-lg capitalize p-1 group-hover:text-white duration-1000 hover:text-xl;
+}
+
+.card-1 {
+  @apply p-3 m-2  hover:bg-cyan-900/20 duration-700 w-fit rounded-lg hover:shadow-lg hover:shadow-teal-700;
 }

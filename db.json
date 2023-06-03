@@ -1,31 +1,43 @@
 {
-  "identityInfo": {
+  "userInfo": {
     "name": "pretom das hira",
     "title": "frontend developer",
+    "about": "my passion lies in crafting beautiful, responsive, and user-friendly interfaces that elevate the overall user experience."
+  },
+  "identityInfo": {
     "identity": [
       { "id": 1, "key": "nationality", "value": "bangladeshi" },
-      { "id": 2, "key": "date of birth", "value": "January 16, 1996" },
-      { "id": 3, "key": "gender", "value": "male" },
-      {
-        "id": 4,
-        "key": "email",
-        "value": "freelancer.pretomhir@gmail.com"
-      },
-      {
-        "id": 5,
-        "key": "skype",
-        "value": "live:pretomdas7.pd"
-      },
-      {
-        "id": 6,
-        "key": "phone",
-        "value": "+880-1521211901"
-      },
+      { "id": 2, "key": "date of birth", "value": "january 16, 1996" },
+      { "id": 3, "key": "age", "value": "1996-01-16" },
+      { "id": 4, "key": "gender", "value": "male" },
+
       {
         "id": 7,
-        "key": "Adress",
+        "key": "Address",
         "value": "dhaka-1204,bangladesh"
       }
     ]
-  }
+  },
+  "contactInfo": [
+    {
+      "id": 4,
+      "key": "email",
+      "value": "freelancer.pretomhir@gmail.com"
+    },
+    {
+      "id": 5,
+      "key": "skype",
+      "value": "live:pretomdas7.pd"
+    },
+    {
+      "id": 6,
+      "key": "phone",
+      "value": "+880-1521211901"
+    },
+    {
+      "id": 9,
+      "key": "LinkedIn",
+      "value": "https://www.linkedin.com/in/pretom-das-28833818b/"
+    }
+  ]
 }
