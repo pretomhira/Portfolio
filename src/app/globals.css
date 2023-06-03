@@ -39,7 +39,10 @@
 }
 
 .root-layer {
-  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950  max-w-7xl mx-auto pt-3 cursor-default font-mono;
+  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono;
+}
+main {
+  @apply max-w-7xl mx-auto pt-12;
 }
 
 .about-title {
@@ -58,7 +61,7 @@
 }
 
 .title-4 {
-  @apply secondary-color text-lg font-medium capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
+  @apply secondary-color text-lg font-medium whitespace-nowrap capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
 }
 
 .title-5 {

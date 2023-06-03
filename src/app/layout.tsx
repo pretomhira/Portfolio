@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import Header from "./components/global/Header";
 
 export const metadata = {
   title: "Porfolio",
@@ -13,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="root-layer text-primary">{children}</body>
+      <body className="root-layer">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
