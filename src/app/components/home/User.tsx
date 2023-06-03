@@ -8,7 +8,6 @@ type UserInfo = {
 
 export default async function User() {
   const userInfo: UserInfo = await getUserInfoData();
-  console.log(userInfo);
   return (
     <div className="card-1 group">
       <div className="flex flex-col gap-2">
