@@ -39,7 +39,7 @@
 }
 
 .root-layer {
-  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono;
+  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono bg-no-repeat;
 }
 main {
   @apply max-w-7xl mx-auto pt-12;
