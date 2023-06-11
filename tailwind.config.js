@@ -17,6 +17,20 @@ module.exports = {
         secondary: "#ecc94b",
         // ...
       },
+      keyframes: {
+        slowSpin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        reverseSpin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(-360deg)" },
+        },
+      },
+      animation: {
+        mySpin: "slowSpin 30s linear infinite",
+        myReverseSpin: "reverseSpin 30s linear infinite",
+      },
     },
   },
   plugins: [],
