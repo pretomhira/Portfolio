@@ -111,60 +111,216 @@
     {
       "id": "1",
       "key": "framworks",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "reactjs"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "2",
       "key": "programming languages",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "javascript"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "3",
       "key": "testing tools",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "jest"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "4",
       "key": "deployment tools",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "docker"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "5",
       "key": "version control",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "git"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "6",
       "key": "documentation",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "confluence"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            }
+          ]
         }
       ]
     }
