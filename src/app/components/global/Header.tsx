@@ -11,7 +11,7 @@ export default function () {
           Welcome
         </Link>
         <div className="flex flex-col justify-center">
-          <div className="flex flex-row justify-end gap-5">
+          <div className="hidden  sm:flex flex-row justify-end gap-5">
             <Link
               href="/experience"
               className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${

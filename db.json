@@ -44,7 +44,7 @@
     {
       "id": 9,
       "key": "LinkedIn",
-      "value": "https://www.linkedin.com/in/pretom-das-28833818b/"
+      "value": "in/pretom-das-28833818b"
     }
   ],
 
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "key": "deployment tools",
       "value": [
         {
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "5",
       "key": "version control",
       "value": [
         {
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "6",
       "key": "documentation",
       "value": [
         {
