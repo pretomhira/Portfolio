@@ -1,4 +1,5 @@
 import { getUserInfoData } from "@/app/api/data";
+import TopTags from "./TopTags";
 import Image from "next/image";
 import profilePicture from "../../aseets/profile-picture.png";
 import react from "../../aseets/react.png";
@@ -15,12 +16,13 @@ type UserInfo = {
 export default async function User() {
   const userInfo: UserInfo = await getUserInfoData();
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row cursor-default">
       <div className="flex-1 flex flex-col justify-center">
         <div className=" card-1 group">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-4">
             <div className="title-1">{userInfo.name}</div>
             <div className="title-3">{userInfo.title}</div>
+            <TopTags />
             <div className="about-title">{userInfo.about}</div>
           </div>
         </div>
