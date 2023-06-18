@@ -46,10 +46,10 @@
 }
 
 .root-layer {
-  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono bg-no-repeat;
+  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono bg-no-repeat w-full;
 }
 main {
-  @apply max-w-7xl mx-auto pt-12;
+  @apply sm:max-w-7xl mx-auto pt-12 w-full;
 }
 
 .about-title {
@@ -72,9 +72,9 @@ main {
 }
 
 .title-5 {
-  @apply tertiary-color text-lg capitalize p-1 group-hover:text-white duration-1000 hover:text-xl;
+  @apply tertiary-color max-w-min sm:max-w-max text-lg whitespace-nowrap capitalize p-1 group-hover:text-white duration-1000 hover:text-xl;
 }
 
 .card-1 {
-  @apply p-3 m-2  hover:bg-cyan-900/20 duration-700 w-fit rounded-lg hover:shadow-lg hover:shadow-teal-700;
+  @apply p-3 m-2  hover:bg-cyan-900/20 duration-700  rounded-lg hover:shadow-lg hover:shadow-teal-700 max-w-sm sm:max-w-max;
 }

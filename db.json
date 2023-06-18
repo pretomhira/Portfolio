@@ -44,7 +44,7 @@
     {
       "id": 9,
       "key": "LinkedIn",
-      "value": "https://www.linkedin.com/in/pretom-das-28833818b/"
+      "value": "in/pretom-das-28833818b"
     }
   ],
 
@@ -111,60 +111,184 @@
     {
       "id": "1",
       "key": "framworks",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "reactjs"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            },
+            {
+              "id": "2",
+              "skill": "redux"
+            },
+            {
+              "id": "3",
+              "skill": "tailwind"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "react native"
+            },
+            {
+              "id": "2",
+              "skill": "sass"
+            },
+            {
+              "id": "3",
+              "skill": "bootstrap"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "nextjs"
+            }
+          ]
         }
       ]
     },
     {
       "id": "2",
       "key": "programming languages",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "javascript"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "javascript"
+            },
+            {
+              "id": "2",
+              "skill": "python"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "typescript"
+            },
+            {
+              "id": "2",
+              "skill": "C"
+            },
+            {
+              "id": "3",
+              "skill": "C++"
+            },
+            {
+              "id": "4",
+              "skill": "java"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            },
+            {
+              "id": "2",
+              "skill": "redux"
+            }
+          ]
         }
       ]
     },
     {
       "id": "3",
       "key": "testing tools",
-      "value": [
+      "level": [
         {
-          "id": "1",
-          "key": "jest"
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "jest"
+            },
+            {
+              "id": "2",
+              "skill": "flow"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "key": "deployment tools",
-      "value": [
+      "level": [
         {
-          "id": "1",
-          "key": "docker"
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "docker"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "3",
+      "id": "5",
       "key": "version control",
-      "value": [
+      "level": [
         {
           "id": "1",
-          "key": "git"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "github"
+            },
+            {
+              "id": "2",
+              "skill": "bitbucket"
+            }
+          ]
         }
       ]
     },
     {
-      "id": "3",
-      "key": "documentation",
-      "value": [
+      "id": "6",
+      "key": "management & documentation",
+      "level": [
         {
           "id": "1",
-          "key": "confluence"
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "jira"
+            },
+            {
+              "id": "2",
+              "skill": "confluence"
+            }
+          ]
         }
       ]
     }

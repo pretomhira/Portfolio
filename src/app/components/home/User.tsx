@@ -27,7 +27,7 @@ export default async function User() {
           </div>
         </div>
       </div>
-      <div className="flex-1 flex flex-row justify-center m-10">
+      <div className="flex-1 hidden md:flex flex-row justify-center m-10 ">
         <div className="relative bg-cyan-700/5 p-10 rounded-full hover:shadow-lg hover:shadow-teal-400 duration-700">
           <Image
             className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-60 h-60 m-20"
