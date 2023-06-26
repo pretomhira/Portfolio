@@ -33,6 +33,7 @@ export default async function User() {
             className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-60 h-60 m-20"
             src={profilePicture}
             alt="Profile Picture"
+            priority={true}
           ></Image>
 
           <div className="group">
@@ -43,6 +44,7 @@ export default async function User() {
                     className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-24 h-24 p-2 animate-myReverseSpin group-hover:shadow-sm group-hover:shadow-teal-500 duaration-1000 group-hover:pause"
                     src={react}
                     alt="react"
+                    priority={true}
                   ></Image>
                 </div>
               </div>
@@ -52,6 +54,7 @@ export default async function User() {
                     className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-24 h-24 p-2 animate-myReverseSpin group-hover:shadow-sm group-hover:shadow-teal-500 duaration-1000 group-hover:pause"
                     src={redux}
                     alt="redux"
+                    priority={true}
                   ></Image>
                 </div>
               </div>
@@ -61,6 +64,7 @@ export default async function User() {
                     className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-24 h-24 p-2 animate-myReverseSpin group-hover:shadow-sm group-hover:shadow-teal-500 duaration-1000 group-hover:pause"
                     src={tailwind}
                     alt="tailwind"
+                    priority={true}
                   ></Image>
                 </div>
               </div>
@@ -70,6 +74,7 @@ export default async function User() {
                     className="rounded-full bg-gradient-to-tr from-cyan-950 to-black w-24 h-24 p-2 animate-myReverseSpin group-hover:shadow-sm group-hover:shadow-teal-500 duaration-1000 group-hover:pause"
                     src={docker}
                     alt="docker"
+                    priority={true}
                   ></Image>
                 </div>
               </div>

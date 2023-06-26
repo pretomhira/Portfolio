@@ -34,6 +34,7 @@ const levelValue: Function = (level: Level) => {
 
 export default async function Skills() {
   const skills: Skills = await getSkillsInfoData();
+
   return (
     <div className="card-1 group">
       <div className="flex flex-col gap-5">
