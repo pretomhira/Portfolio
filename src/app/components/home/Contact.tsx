@@ -1,16 +1,9 @@
-import { getContactInfoData } from "@/app/api/data";
+// DataTypes
+import { Contact, ContactPropsInfo } from "@/app/api/dataTypes";
 
-type Contact = {
-  id: string;
-  key: string;
-  value: string;
-};
-
-type ContactInfo = [Contact];
-
-export default async function Contact() {
-  const contactInfo: ContactInfo = await getContactInfoData();
-
+export default function Contact({
+  contactInfo,
+}: ContactPropsInfo): JSX.Element {
   return (
     <div className="card-1 group">
       <div className="flex flex-col gap-5">

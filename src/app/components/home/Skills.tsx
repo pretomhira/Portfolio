@@ -1,25 +1,11 @@
-import { getSkillsInfoData } from "@/app/api/data";
+"use client";
 
-type Skill = {
-  id: string;
-  key: string;
-  level: [
-    {
-      id: string;
-      key: string;
-      value: [
-        {
-          id: string;
-          skill: string;
-        }
-      ];
-    }
-  ];
-};
+import { useRef, useEffect } from "react";
 
-type Skills = [Skill];
-type Level = string;
+// DataTypes
+import { SkillPropsInfo, SkillDetail, Level } from "@/app/api/dataTypes";
 
+// Functions
 const levelValue: Function = (level: Level) => {
   if (level === "expart") {
     return "w-full";
@@ -32,18 +18,27 @@ const levelValue: Function = (level: Level) => {
   }
 };
 
-export default async function Skills() {
-  const skills: Skills = await getSkillsInfoData();
+export default function Skills({ skillInfo }: SkillPropsInfo): JSX.Element {
+  const myRef = useRef();
 
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0];
+      console.log("entry", entry);
+    });
+    observer.observe(myRef.current);
+  });
+  console.log(myRef);
   return (
     <div className="card-1 group">
       <div className="flex flex-col gap-5">
         <div className="title-2">Skills</div>
         <div className="flex flex-col gap-5">
-          {skills.map((skill: Skill) => (
+          {skillInfo.map((skill: SkillDetail) => (
             <div
               key={skill.id}
               className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md"
+              ref={myRef}
             >
               <div className="title-4 !w-72">{skill.key}</div>
               <div className="cursor-copy flex flex-col gap-2">

@@ -1,26 +1,39 @@
+import { use } from "react";
+
 import User from "./components/home/User";
 import Identity from "./components/home/Identity";
 import Contact from "./components/home/Contact";
 import Skills from "./components/home/Skills";
 
-interface HomeProps {
-  children: JSX.Element[] | JSX.Element;
-}
+import {
+  getUserInfoData,
+  getSkillsInfoData,
+  getIdentityInfoData,
+  getContactInfoData,
+} from "./api/data";
 
-export default function Home(prop: HomeProps): JSX.Element {
+import {
+  JsxProps,
+  UserInfo,
+  SkillInfo,
+  IdentityInfo,
+  ContactInfo,
+} from "./api/dataTypes";
+
+export default function Home(prop: JsxProps): JSX.Element {
+  const userInfo: UserInfo = use(getUserInfoData());
+  const skillInfo: SkillInfo = use(getSkillsInfoData());
+  const identityInfo: IdentityInfo = use(getIdentityInfoData());
+  const contactInfo: ContactInfo = use(getContactInfoData());
   return (
     <main>
-      {/* @ts-expect-error Server Component */}
-      <User />
+      <User userInfo={userInfo} />
 
-      {/* @ts-expect-error Server Component */}
-      <Skills />
+      <Skills skillInfo={skillInfo} />
 
-      {/* @ts-expect-error Server Component */}
-      <Identity />
+      <Identity identityInfo={identityInfo} />
 
-      {/* @ts-expect-error Server Component */}
-      <Contact />
+      <Contact contactInfo={contactInfo} />
     </main>
   );
 }
