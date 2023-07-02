@@ -19,14 +19,15 @@ const levelValue: Function = (level: Level) => {
 };
 
 export default function Skills({ skillInfo }: SkillPropsInfo): JSX.Element {
-  const myRef = useRef();
+  const myRef = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
       console.log("entry", entry);
     });
-    observer.observe(myRef.current);
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    observer.observe(myRef.current!);
   });
   console.log(myRef);
   return (
