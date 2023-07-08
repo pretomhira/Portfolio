@@ -165,7 +165,7 @@
       "key": "programming languages",
       "level": [
         {
-          "id": "1",
+          "id": "5",
           "key": "expart",
           "value": [
             {
@@ -179,7 +179,7 @@
           ]
         },
         {
-          "id": "2",
+          "id": "5",
           "key": "proficient",
           "value": [
             {
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "id": "3",
+          "id": "6",
           "key": "competent",
           "value": [
             {
@@ -221,7 +221,7 @@
       "key": "testing tools",
       "level": [
         {
-          "id": "3",
+          "id": "7",
           "key": "competent",
           "value": [
             {
@@ -241,7 +241,7 @@
       "key": "deployment tools",
       "level": [
         {
-          "id": "2",
+          "id": "8",
           "key": "proficient",
           "value": [
             {
@@ -257,7 +257,7 @@
       "key": "version control",
       "level": [
         {
-          "id": "1",
+          "id": "9",
           "key": "expart",
           "value": [
             {
@@ -277,7 +277,7 @@
       "key": "management & documentation",
       "level": [
         {
-          "id": "1",
+          "id": "10",
           "key": "expart",
           "value": [
             {

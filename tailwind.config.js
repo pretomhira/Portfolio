@@ -26,10 +26,15 @@ module.exports = {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(-360deg)" },
         },
+        grow: {
+          "0%": { width: "5%" },
+          "100%": { width: "100%" },
+        },
       },
       animation: {
         mySpin: "slowSpin 30s linear infinite",
         myReverseSpin: "reverseSpin 30s linear infinite",
+        myGrow: "grow 2s linear forwards",
       },
     },
   },

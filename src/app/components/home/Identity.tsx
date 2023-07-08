@@ -1,16 +1,9 @@
-import { getIdentityInfoData } from "@/app/api/data";
 import moment from "moment";
 
-type Identity = {
-  id: string;
-  key: string;
-  value: string;
-};
+// DataType
+import { Identity, IdentityPropsInfo } from "@/app/api/dataTypes";
 
-type IdentityInfo = {
-  identity: [Identity];
-};
-
+// Functions
 const age = (date: string): string => {
   let years = moment().diff(date, "years");
   let months = Math.ceil(
@@ -19,9 +12,9 @@ const age = (date: string): string => {
   return `${years} years ${months} months`;
 };
 
-export default async function Identity() {
-  const identityInfo: IdentityInfo = await getIdentityInfoData();
-
+export default function Identity({
+  identityInfo,
+}: IdentityPropsInfo): JSX.Element {
   return (
     <div className="card-1 group">
       <div className="flex flex-col gap-5">
