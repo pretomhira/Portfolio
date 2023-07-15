@@ -41,10 +41,7 @@ export type Identity = {
   value: string;
 };
 
-export type IdentityInfo = {
-  identity: [Identity];
-};
-
+export type IdentityInfo = [Identity];
 export interface IdentityPropsInfo {
   identityInfo: IdentityInfo;
 }

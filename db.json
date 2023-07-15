@@ -11,20 +11,18 @@
       { "id": "1", "key": "docker", "value": [{ "image": "#" }] }
     ]
   },
-  "identityInfo": {
-    "identity": [
-      { "id": 1, "key": "nationality", "value": "bangladeshi" },
-      { "id": 2, "key": "date of birth", "value": "january 16, 1996" },
-      { "id": 3, "key": "age", "value": "1996-01-16" },
-      { "id": 4, "key": "gender", "value": "male" },
+  "identityInfo": [
+    { "id": 1, "key": "nationality", "value": "bangladeshi" },
+    { "id": 2, "key": "date of birth", "value": "january 16, 1996" },
+    { "id": 3, "key": "age", "value": "1996-01-16" },
+    { "id": 4, "key": "gender", "value": "male" },
 
-      {
-        "id": 7,
-        "key": "Address",
-        "value": "dhaka-1204,bangladesh"
-      }
-    ]
-  },
+    {
+      "id": 7,
+      "key": "Address",
+      "value": "dhaka-1204,bangladesh"
+    }
+  ],
   "contactInfo": [
     {
       "id": 4,
