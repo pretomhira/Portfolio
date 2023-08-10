@@ -1,7 +1,7 @@
 import moment from "moment";
 
 // DataType
-import { Identity, IdentityInfo, IdentityPropsInfo } from "@/app/api/dataTypes";
+import { Identity, IdentityPropsInfo } from "@/app/api/dataTypes";
 
 // Functions
 const age = (date: string): string => {
@@ -24,11 +24,11 @@ export default function Identity({
             <div key={identity.id} className="flex flex-col sm:flex-row gap-3">
               <div className="title-4">{identity.key}</div>
               <div className="secondary-color hidden sm:block">-</div>
-              {/* {identity.key === "age" ? (
+              {identity.key === "age" ? (
                 <div className="title-5">{age(identity.value)}</div>
               ) : (
                 <div className="title-5">{identity.value}</div>
-              )} */}
+              )}
             </div>
           ))}
         </div>

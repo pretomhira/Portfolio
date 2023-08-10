@@ -28,8 +28,9 @@ export default function Home(prop: JsxProps): JSX.Element {
   return (
     <main>
       <User userInfo={userInfo} />
-
-      <Skills skillInfo={skillInfo} />
+      <div className="flex flex-row justify-end">
+        <Skills skillInfo={skillInfo} />
+      </div>
 
       <Identity identityInfo={identityInfo} />
 

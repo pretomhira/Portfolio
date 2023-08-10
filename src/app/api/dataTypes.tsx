@@ -12,15 +12,15 @@ export interface UserPropsInfo {
   userInfo: UserInfo;
 }
 export type SkillDetail = {
-  id: string;
+  _id: string;
   key: string;
   level: [
     {
-      id: string;
+      _id: string;
       key: string;
       value: [
         {
-          id: string;
+          _id: string;
           skill: string;
         }
       ];

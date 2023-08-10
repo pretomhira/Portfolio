@@ -41,17 +41,14 @@ export default function Skills({ skillInfo }: SkillPropsInfo): JSX.Element {
         <div className="flex flex-col gap-5" ref={myRef}>
           {skillInfo.map((skill: SkillDetail) => (
             <div
-              key={skill.id}
+              key={skill._id}
               className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md"
             >
               <div className="title-4 !w-72">{skill.key}</div>
               <div className="cursor-copy flex flex-col gap-2">
                 {skill.level.map((level) => (
-                  <div className="flex flex-col gap-2">
-                    <div
-                      className="text-teal-600 group-hover:text-teal-300  duration-700"
-                      key={level.id}
-                    >
+                  <div className="flex flex-col gap-2" key={level._id}>
+                    <div className="text-teal-600 group-hover:text-teal-300  duration-700">
                       {level.key}
                     </div>
                     <div className="flex flex-col gap-1">
@@ -76,7 +73,7 @@ export default function Skills({ skillInfo }: SkillPropsInfo): JSX.Element {
                         {level.value.map((value) => (
                           <div
                             className="bg-teal-100/5 py-1 px-2  rounded-md"
-                            key={value.id}
+                            key={value._id}
                           >
                             {value.skill}
                           </div>
