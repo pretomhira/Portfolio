@@ -5,7 +5,7 @@ export default function Contact({
   contactInfo,
 }: ContactPropsInfo): JSX.Element {
   return (
-    <div className="card-1 group">
+    <div className="card-1 group" id="contact">
       <div className="flex flex-col gap-5">
         <div className="title-2">Contact</div>
         <div className="flex flex-col gap-2">
