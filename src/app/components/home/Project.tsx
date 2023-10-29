@@ -1,4 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
+
+import teleaus from "../../aseets/teleaus.gif";
+import genofax from "../../aseets/genofax.gif";
+import talenttorrent from "../../aseets/talenttorrent.gif";
 
 export default function Project() {
   return (
@@ -48,13 +53,13 @@ export default function Project() {
           </div>
           <div className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md">
             <div className="text-teal-600 group-hover:text-teal-300  duration-700">
-              Genofax
+              Teleasus
             </div>
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
-                <img
-                  src="https://loremflickr.com/320/240"
-                  alt=""
+                <Image
+                  src={teleaus}
+                  alt="teleaus"
                   className="w-[100vw] h-auto object-cover rounded-md"
                 />
               </div>
@@ -89,16 +94,15 @@ export default function Project() {
               </div>
             </div>
           </div>
-
           <div className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md">
             <div className="text-teal-600 group-hover:text-teal-300  duration-700">
-              Project One
+              Genofax
             </div>
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
-                <img
-                  src="https://loremflickr.com/320/240"
-                  alt=""
+                <Image
+                  src={genofax}
+                  alt="genofax"
                   className="w-[100vw] h-auto object-cover rounded-md"
                 />
               </div>
@@ -111,22 +115,67 @@ export default function Project() {
                 {/* <div className="title-4">...</div> */}
                 <div className="flex flex-row gap-3">
                   <div>Live Preview</div>
-                  <div className="cursor-pointer">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6 "
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                      />
-                    </svg>
-                  </div>
+                  <Link href={"https://www.genofax.com/</div>"}>
+                    <div className="cursor-pointer">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                        />
+                      </svg>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md">
+            <div className="text-teal-600 group-hover:text-teal-300  duration-700">
+              Talent Torrent
+            </div>
+            <div className="flex flex-row gap-3 ">
+              <div className="flex-1">
+                <Image
+                  src={talenttorrent}
+                  alt="talenttorrent"
+                  className="w-[100vw] h-auto object-cover rounded-md"
+                />
+              </div>
+              <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia corrupti sed placeat voluptate exercitationem quas
+                  nisi.
+                </div>
+                {/* <div className="title-4">...</div> */}
+                <div className="flex flex-row gap-3">
+                  <div>Live Preview</div>
+                  <Link href={"https://www.genofax.com/</div>"}>
+                    <div className="cursor-pointer">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6 "
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                        />
+                      </svg>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
