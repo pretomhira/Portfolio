@@ -22,7 +22,7 @@ import {
   ContactInfo,
 } from "./api/dataTypes";
 
-export default function Home(prop: JsxProps): JSX.Element {
+export default function Home(): JSX.Element {
   const userInfo: UserInfo = use(getUserInfoData());
   const skillInfo: SkillInfo = use(getSkillsInfoData());
   const identityInfo: IdentityInfo = use(getIdentityInfoData());
