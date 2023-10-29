@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "db": "json-server --watch db.json --port 3030",
-    "dev": "ESLINT_NO_DEV=true next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
