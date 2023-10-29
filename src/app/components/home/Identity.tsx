@@ -5,8 +5,8 @@ import { Identity, IdentityPropsInfo } from "@/app/api/dataTypes";
 
 // Functions
 const age = (date: string): string => {
-  let years = moment().diff(date, "years");
-  let months = Math.ceil(
+  const years = moment().diff(date, "years");
+  const months = Math.ceil(
     (moment().diff(date, "months") / 12 - moment().diff(date, "years")) * 10
   );
   return `${years} years ${months} months`;
