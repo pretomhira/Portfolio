@@ -1,0 +1,294 @@
+{
+  "userInfo": {
+    "name": "pretom das hira",
+    "title": "frontend developer",
+    "about": "my passion lies in crafting beautiful, responsive, and user-friendly interfaces that elevate the overall user experience.",
+    "image": "",
+    "highlights": [
+      { "id": "1", "key": "reactjs", "value": [{ "image": "#" }] },
+      { "id": "1", "key": "redux", "value": [{ "image": "#" }] },
+      { "id": "1", "key": "tailwind", "value": [{ "image": "#" }] },
+      { "id": "1", "key": "docker", "value": [{ "image": "#" }] }
+    ]
+  },
+  "identityInfo": [
+    { "id": 1, "key": "nationality", "value": "bangladeshi" },
+    { "id": 2, "key": "date of birth", "value": "january 16, 1996" },
+    { "id": 3, "key": "age", "value": "1996-01-16" },
+    { "id": 4, "key": "gender", "value": "male" },
+
+    {
+      "id": 7,
+      "key": "Address",
+      "value": "dhaka-1204,bangladesh"
+    }
+  ],
+  "contactInfo": [
+    {
+      "id": 4,
+      "key": "email",
+      "value": "freelancer.pretomhir@gmail.com"
+    },
+    {
+      "id": 5,
+      "key": "skype",
+      "value": "live:pretomdas7.pd"
+    },
+    {
+      "id": 6,
+      "key": "phone",
+      "value": "+880-1521211901"
+    },
+    {
+      "id": 9,
+      "key": "LinkedIn",
+      "value": "in/pretom-das-28833818b"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 1,
+      "key": "university",
+      "value": [
+        {
+          "name": "north south university",
+          "degree": "Bsc",
+          "department": "computer science and engineering",
+          "address": "dhaka, bangladesh",
+          "from": "01.01.2015",
+          "to": "01.01.2020"
+        }
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "1",
+      "key": "company",
+      "value": [
+        {
+          "name": "mulytic energy solutions bd",
+          "location": "dhaka, bangladesh",
+          "postision": "software engineer frontend",
+          "from": "06.06.2022",
+          "to": "present"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "01",
+      "key": "chargeAi",
+      "value": [
+        {
+          "link": "#",
+          "image": "#",
+          "soursecode": ""
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "key": "nodejs",
+      "value": [
+        {
+          "image": "3",
+          "credentail": "0123232",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "key": "framworks",
+      "level": [
+        {
+          "id": "1",
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            },
+            {
+              "id": "2",
+              "skill": "redux"
+            },
+            {
+              "id": "3",
+              "skill": "tailwind"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "react native"
+            },
+            {
+              "id": "2",
+              "skill": "sass"
+            },
+            {
+              "id": "3",
+              "skill": "bootstrap"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "nextjs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "key": "programming languages",
+      "level": [
+        {
+          "id": "5",
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "javascript"
+            },
+            {
+              "id": "2",
+              "skill": "python"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "typescript"
+            },
+            {
+              "id": "2",
+              "skill": "C"
+            },
+            {
+              "id": "3",
+              "skill": "C++"
+            },
+            {
+              "id": "4",
+              "skill": "java"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "reactjs"
+            },
+            {
+              "id": "2",
+              "skill": "redux"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "key": "testing tools",
+      "level": [
+        {
+          "id": "7",
+          "key": "competent",
+          "value": [
+            {
+              "id": "1",
+              "skill": "jest"
+            },
+            {
+              "id": "2",
+              "skill": "flow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "key": "deployment tools",
+      "level": [
+        {
+          "id": "8",
+          "key": "proficient",
+          "value": [
+            {
+              "id": "1",
+              "skill": "docker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "key": "version control",
+      "level": [
+        {
+          "id": "9",
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "github"
+            },
+            {
+              "id": "2",
+              "skill": "bitbucket"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "key": "management & documentation",
+      "level": [
+        {
+          "id": "10",
+          "key": "expart",
+          "value": [
+            {
+              "id": "1",
+              "skill": "jira"
+            },
+            {
+              "id": "2",
+              "skill": "confluence"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

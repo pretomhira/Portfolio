@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .pause {
+    animation-play-state: paused;
+    transition-delay: 100ms;
+  }
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.primary-color {
+  @apply text-gray-300;
+}
+
+.secondary-color {
+  @apply text-gray-500;
+}
+
+.tertiary-color {
+  @apply text-teal-500;
+}
+
+.root-layer {
+  @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono bg-no-repeat w-full;
+}
+main {
+  @apply sm:max-w-7xl mx-auto pt-12 w-full;
+}
+
+.about-title {
+  @apply text-gray-500  text-base group-hover:text-white p-1 max-w-md text-left  duration-500 capitalize;
+}
+.title-1 {
+  @apply primary-color text-5xl font-bold capitalize  p-1 group-hover:text-white duration-300;
+}
+
+.title-2 {
+  @apply primary-color text-3xl uppercase  p-1 group-hover:text-white duration-300;
+}
+
+.title-3 {
+  @apply primary-color text-2xl uppercase  p-1 font-medium;
+}
+
+.title-4 {
+  @apply secondary-color text-lg font-medium whitespace-nowrap capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
+}
+
+.title-5 {
+  @apply tertiary-color max-w-min sm:max-w-max text-lg whitespace-nowrap capitalize p-1 group-hover:text-white duration-1000 hover:text-xl;
+}
+
+.card-1 {
+  @apply p-3 m-2  hover:bg-cyan-900/20 duration-700  rounded-lg hover:shadow-lg hover:shadow-teal-700 max-w-sm sm:max-w-max;
+}
