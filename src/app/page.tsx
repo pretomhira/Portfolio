@@ -4,6 +4,8 @@ import User from "./components/home/User";
 import Identity from "./components/home/Identity";
 import Contact from "./components/home/Contact";
 import Skills from "./components/home/Skills";
+import Experience from "./components/home/Experience";
+import Project from "./components/home/Project";
 
 import {
   getUserInfoData,
@@ -29,7 +31,13 @@ export default function Home(prop: JsxProps): JSX.Element {
     <main>
       <User userInfo={userInfo} />
       <div className="flex flex-row justify-end">
-        <Skills skillInfo={skillInfo} />
+        <div>
+          <Project />
+          <Experience />
+        </div>
+        <div>
+          <Skills skillInfo={skillInfo} />
+        </div>
       </div>
 
       <Identity identityInfo={identityInfo} />

@@ -14,7 +14,7 @@ export default function () {
         <div className="flex flex-col justify-center">
           <div className="hidden  sm:flex flex-row justify-end gap-5">
             <Link
-              href="/experience"
+              href="#experience"
               className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${
                 pathname.endsWith("/experience") && "shadow-cyan-700"
               }`}
@@ -22,7 +22,7 @@ export default function () {
               experience
             </Link>
             <Link
-              href="/education"
+              href="#education"
               className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${
                 pathname.endsWith("/education") && "shadow-cyan-700"
               }`}
@@ -30,12 +30,20 @@ export default function () {
               education
             </Link>
             <Link
-              href="/project"
+              href="#project"
               className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${
                 pathname.endsWith("/project") && "shadow-cyan-700"
               }`}
             >
               project
+            </Link>
+            <Link
+              href="#contact"
+              className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${
+                pathname.endsWith("/project") && "shadow-cyan-700"
+              }`}
+            >
+              Contact
             </Link>
           </div>
         </div>
