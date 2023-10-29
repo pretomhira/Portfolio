@@ -17,7 +17,9 @@ export default function Project() {
             </div>
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
-                <img
+                <Image
+                  width={500}
+                  height={300}
                   src="https://loremflickr.com/320/240"
                   alt=""
                   className="w-[100vw] h-auto object-cover rounded-md"
@@ -58,6 +60,8 @@ export default function Project() {
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
                 <Image
+                  width={500}
+                  height={300}
                   src={teleaus}
                   alt="teleaus"
                   className="w-[100vw] h-auto object-cover rounded-md"
@@ -101,6 +105,8 @@ export default function Project() {
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
                 <Image
+                  width={500}
+                  height={300}
                   src={genofax}
                   alt="genofax"
                   className="w-[100vw] h-auto object-cover rounded-md"
@@ -144,6 +150,8 @@ export default function Project() {
             <div className="flex flex-row gap-3 ">
               <div className="flex-1">
                 <Image
+                  width={500}
+                  height={300}
                   src={talenttorrent}
                   alt="talenttorrent"
                   className="w-[100vw] h-auto object-cover rounded-md"
