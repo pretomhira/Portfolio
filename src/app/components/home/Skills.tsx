@@ -30,7 +30,6 @@ export default function Skills({ skillInfo }: SkillPropsInfo): JSX.Element {
       setIsVisible(entry.isIntersecting);
     });
 
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     observer.observe(myRef.current!);
   }, []);
 
