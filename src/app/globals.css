@@ -49,14 +49,14 @@
   @apply bg-gradient-to-tr from-black via-cyan-950 to-slate-950 cursor-default font-mono bg-no-repeat w-full;
 }
 main {
-  @apply sm:max-w-7xl mx-auto pt-12 w-full;
+  @apply sm:max-w-7xl mx-auto pt-3 sm:pt-12 w-full;
 }
 
 .about-title {
   @apply text-gray-500  text-base group-hover:text-white p-1 max-w-md text-left  duration-500 capitalize;
 }
 .title-1 {
-  @apply primary-color text-5xl font-bold capitalize  p-1 group-hover:text-white duration-300;
+  @apply primary-color text-3xl sm:text-5xl font-bold capitalize  p-1 group-hover:text-white duration-300;
 }
 
 .title-2 {
@@ -64,11 +64,11 @@ main {
 }
 
 .title-3 {
-  @apply primary-color text-2xl uppercase  p-1 font-medium;
+  @apply primary-color text-xl sm:text-2xl uppercase  p-1 font-medium;
 }
 
 .title-4 {
-  @apply secondary-color text-lg font-medium whitespace-nowrap capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
+  @apply secondary-color text-sm sm:text-lg font-medium whitespace-nowrap capitalize p-1 w-36 group-hover:text-teal-700 duration-1000;
 }
 
 .title-5 {

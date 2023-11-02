@@ -2,7 +2,7 @@ import { JsxProps } from "@/app/api/dataTypes";
 
 export default function TopTags(): JSX.Element {
   return (
-    <div className="flex flex-row gap-5">
+    <div className="flex flex-row flex-wrap gap-5">
       <div className="p-2 font-semibold hover:shadow-md hover:shadow-gray-800  bg-yellow-500 rounded-md">
         JavaScript
       </div>
