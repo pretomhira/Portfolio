@@ -43,7 +43,7 @@ export default function User({ userInfo }: UserPropsInfo) {
           </div>
         </div>
       </div>
-      <div className="flex-auto sm:flex-1 flex flex-col justify-center">
+      <div className="flex-auto sm:flex-1 flex flex-col justify-center overflow-hidden">
         <div className=" flex flex-row justify-center">
           <div className="relative bg-cyan-700/5 p-4 rounded-full hover:shadow-lg hover:shadow-teal-400 duration-700">
             <Image
