@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
   return (
     <main>
       <User userInfo={userInfo} />
-      <div className="flex flex-row justify-end">
+      <div className="flex  flex-col sm:flex-row justify-end">
         <div>
           <Project />
           <Experience />
@@ -40,7 +40,7 @@ export default function Home(): JSX.Element {
         </div>
       </div>
 
-      <Identity identityInfo={identityInfo} />
+      {/* <Identity identityInfo={identityInfo} /> */}
 
       <Contact contactInfo={contactInfo} />
     </main>

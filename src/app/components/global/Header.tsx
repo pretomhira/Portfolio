@@ -22,7 +22,7 @@ export default function () {
               experience
             </Link>
             <Link
-              href="#education"
+              href="#experience"
               className={` capitalize text-xl shadow-md hover:shadow-teal-300 hover:text-teal-200 p-2 rounded-md duration-700 ${
                 pathname.endsWith("/education") && "shadow-cyan-700"
               }`}
