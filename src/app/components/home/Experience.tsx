@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <div id="experience" className="pt-0 sm:pt-10">
-      <div className="card-1 group !mt-16 !w-full ">
+      <div className="card-1 group !mt-16 !w-auto">
         <div className="flex flex-col sm:flex-row gap-1 sm:gap-4">
           <div className="flex-1">
             <div className="flex flex-col gap-3">

@@ -16,7 +16,7 @@ export default function Project() {
           <div className="flex flex-row sm:flex-col gap-5 max-h-[30rem] overflow-auto">
             <div className="flex flex-col sm:flex-col gap-3 border border-teal-800 m-1 p-3 rounded-md">
               <div className="text-teal-600 group-hover:text-teal-300  duration-700">
-                ChargeAi
+                ChargeAi Web
               </div>
               <div className="flex flex-col sm:flex-row gap-1 sm:gap-3 ">
                 <div className="flex-1">
@@ -28,7 +28,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     I am currently working for ChargeAi , building its user
                     interface for Web as well as Mobile applications.
@@ -70,7 +70,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     I am currently working for ChargeAi , building its user
                     interface for Web as well as Mobile applications.
@@ -112,7 +112,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
@@ -157,7 +157,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
@@ -202,7 +202,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between title-4 !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
