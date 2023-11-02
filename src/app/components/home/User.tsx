@@ -1,5 +1,8 @@
 "use client";
 
+//typing animation
+import Typewriter from "typewriter-effect";
+
 // Hooks
 import { useEffect, useState, useRef } from "react";
 
@@ -22,7 +25,19 @@ export default function User({ userInfo }: UserPropsInfo) {
         <div className="card-1 group">
           <div className="flex flex-col gap-2 sm:gap-4">
             <div className="title-1">{userInfo.name}</div>
-            <div className="title-3">{userInfo.title}</div>
+            <div className="title-3">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Frontend Developer",
+                    "Green Technology Enthusiast",
+                    "Eco-Warrior",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
             <TopTags />
             <div className="about-title">{userInfo.about}</div>
           </div>
