@@ -20,7 +20,7 @@ import { UserPropsInfo } from "@/app/api/dataTypes";
 
 export default function User({ userInfo }: UserPropsInfo) {
   return (
-    <div className="h-screen flex flex-col sm:flex-row cursor-default">
+    <div className="h-screen flex flex-col sm:flex-row cursor-default max-w-5xl mx-auto">
       <div className="flex-auto sm:flex-1 flex flex-col justify-center">
         <div className="card-1 group">
           <div className="flex flex-col gap-2 sm:gap-4">

@@ -28,7 +28,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     I am currently working for ChargeAi , building its user
                     interface for Web as well as Mobile applications.
@@ -70,7 +70,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     I am currently working for ChargeAi , building its user
                     interface for Web as well as Mobile applications.
@@ -112,7 +112,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
@@ -157,7 +157,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
@@ -202,7 +202,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-gray-300 p-2 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
+                <div className="flex-1 flex flex-col justify-between text-gray-300 font-thin text-sm !w-72 !whitespace-normal h-52 overflow-hidden">
                   <div className="">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Mollitia corrupti sed placeat voluptate exercitationem quas
