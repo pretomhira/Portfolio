@@ -22,7 +22,7 @@ const nextConfig = {
     ];
   },
   images: {
-    domains: ["loremflickr.com"],
+    domains: ["loremflickr.com", "media.giphy.com"],
   },
 };
 
