@@ -15,6 +15,9 @@ export default function TopTags(): JSX.Element {
       <div className="p-2 font-semibold hover:shadow-md hover:shadow-gray-800  bg-gray-700 text-blue-400 rounded-md ">
         ReactNative
       </div>
+      <div className="p-2 font-semibold hover:shadow-md hover:shadow-gray-800  bg-blue-400 text-white rounded-md ">
+        Flutter
+      </div>
     </div>
   );
 }
