@@ -28,8 +28,8 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-52 overflow-hidden overflow-y-auto">
-                  <div className="">
+                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                  <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
                         Develop Charge Ai web app for Clients and Charge Point
@@ -85,8 +85,8 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-52 overflow-hidden overflow-y-auto">
-                  <div className="">
+                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                  <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
                         Build ChargeAI Mobile applications with React Native and
@@ -139,8 +139,8 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-52 overflow-hidden overflow-y-auto">
-                  <div className="">
+                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                  <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
                         Develop the company's new portfolio web application
@@ -191,8 +191,8 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-52 overflow-hidden overflow-y-auto">
-                  <div className="">
+                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                  <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
                         Review Existing code and Update existing web
@@ -242,8 +242,8 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-52 overflow-hidden overflow-y-auto">
-                  <div className="">
+                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                  <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>Implemented a new design for job sites.</li>
                       <li>
