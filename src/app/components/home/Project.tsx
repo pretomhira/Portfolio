@@ -23,7 +23,7 @@ export default function Project() {
                   <Image
                     width={500}
                     height={300}
-                    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3JjeTYxaTM4eGs2cmZ1a3AxdTBmdGhka3lhN2EzY3AyYm16MGIxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZPPhY6Q2f3ve36sQW8/giphy.gif"
+                    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3l1ZjFrbzRoeGJ4bXdyb2NqczA0dGs4MHB3amkxYjZmdHBldGozcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/08DctwpHFh3M94ucbd/giphy.gif"
                     alt="chargeAi"
                     className="w-[100vw] h-auto object-cover rounded-md"
                   />
