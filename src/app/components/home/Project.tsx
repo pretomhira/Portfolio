@@ -33,15 +33,16 @@ export default function Project() {
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
-                        Develop Charge Ai web app for Clients and Charge Point
+                        Developed Charge Ai web app for Clients and Charge Point
                         Operators.
                       </li>
                       <li>
-                        Implement a Remote Start/Stop Charging system, Filtering
-                        Data.
+                        Implemented a Remote Start/Stop Charging system,
+                        Filtering Data.
                       </li>
                       <li>
-                        Visualize cost savings, Energy consumption, CO2 savings.
+                        Visualized cost savings, Energy consumption, CO2
+                        savings.
                       </li>
                       <li>
                         Integrated Map with real-time charging station traffic
@@ -90,12 +91,13 @@ export default function Project() {
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
-                        Build ChargeAI Mobile applications with React Native and
+                        Built ChargeAI Mobile applications with React Native and
                         Flutter.
                       </li>
                       <li>Converted React Native to Flutter.</li>
                       <li>
-                        Integrate Multiple graphs and Map Services with Mapboxi.
+                        Integrated Multiple graphs and Map Services with
+                        Mapboxi.
                       </li>
                       <li>
                         Experienced in releasing Android applications for
@@ -144,12 +146,12 @@ export default function Project() {
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
-                        Develop the company's new portfolio web application
+                        Developed the company's new portfolio web application
                         frontend from scratch.
                       </li>
                       <li>Integrated payment method.</li>
                       <li>
-                        Implement pixel-perfect dynamic UI as a static design.
+                        Implemented pixel-perfect dynamic UI as a static design.
                       </li>
                     </ul>
                   </div>
@@ -196,11 +198,11 @@ export default function Project() {
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
-                        Review Existing code and Update existing web
+                        Reviewed Existing code and Update existing web
                         applications with new designs.
                       </li>
                       <li>
-                        Update outdated library and optimize the application.
+                        Updated outdated library and optimize the application.
                       </li>
                     </ul>
                   </div>
@@ -248,7 +250,7 @@ export default function Project() {
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>Implemented a new design for job sites.</li>
                       <li>
-                        Build an optimized search function with multiple
+                        Built an optimized search function with multiple
                         filters.
                       </li>
                     </ul>
