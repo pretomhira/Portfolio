@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -25,7 +26,7 @@ export default function Project() {
                     height={300}
                     src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3l1ZjFrbzRoeGJ4bXdyb2NqczA0dGs4MHB3amkxYjZmdHBldGozcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/08DctwpHFh3M94ucbd/giphy.gif"
                     alt="chargeAi"
-                    className="w-[100vw] h-auto object-cover rounded-md"
+                    className="w-[100vw] h-auto object-cover rounded-md bg-black/25 bg-black/25"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
@@ -82,7 +83,7 @@ export default function Project() {
                     height={300}
                     src="https://media.giphy.com/media/SHF0IWJAScCkwRAJJt/giphy-downsized-large.gif"
                     alt="chargeAi"
-                    className="w-[100vw] h-auto object-cover rounded-md"
+                    className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
@@ -136,7 +137,7 @@ export default function Project() {
                     height={300}
                     src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2V5d21ncDc4bjlndDB5NGVmemJhanFlY2Uzd2hzY2ZmbmM3aDlleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ynbv6PQhY27AIGy5o5/giphy-downsized-large.gif"
                     alt="teleaus"
-                    className="w-[100vw] h-auto object-cover rounded-md"
+                    className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
@@ -188,7 +189,7 @@ export default function Project() {
                     height={300}
                     src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzEyYnBnMGN0NWI2aGxnNDFtYzFsYThoZTdvcjk2a3phdHhka3pqdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LKX476ZTnQ6zMjrkU6/giphy-downsized-large.gif"
                     alt="genofax"
-                    className="w-[100vw] h-auto object-cover rounded-md"
+                    className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
@@ -237,9 +238,9 @@ export default function Project() {
                   <Image
                     width={500}
                     height={300}
-                    src={talenttorrent}
+                    src="https://media.giphy.com/media/tYC5a63RqJTSafopfU/giphy-downsized-large.gif"
                     alt="talenttorrent"
-                    className="w-[100vw] h-auto object-cover rounded-md"
+                    className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
                 <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
