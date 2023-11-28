@@ -59,7 +59,7 @@ export default function Experience() {
                   23.04.23 - Present
                 </div>
                 <div className="title-4 !whitespace-normal !w-auto">
-                  Data Science
+                  Data Science (Online )
                 </div>
               </div>
               <div className="flex flex-col gap-2">
