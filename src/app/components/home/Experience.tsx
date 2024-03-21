@@ -56,7 +56,7 @@ export default function Experience() {
                   FAU Erlangen-Nürnberg
                 </div>
                 <div className="title-4 !whitespace-normal !w-auto">
-                  23.04.23 - Present
+                  01.10.23 - Present
                 </div>
                 <div className="title-4 !whitespace-normal !w-auto">
                   Data Science (Online )
