@@ -29,7 +29,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md bg-black/25 bg-black/25"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                <div className="flex-1 flex flex-col justify-between text-white font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
@@ -51,7 +51,7 @@ export default function Project() {
                     </ul>
                   </div>
                   {/* <div className="title-4">...</div> */}
-                  <div className="flex flex-row gap-3 text-orange-600 italic py-2">
+                  <div className="flex flex-row gap-3 text-white/60 italic py-2">
                     <div>Under Developed</div>
                     {/* <div className="cursor-pointer">
                     <svg
@@ -87,7 +87,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                <div className="flex-1 flex flex-col justify-between text-white font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
@@ -106,7 +106,7 @@ export default function Project() {
                     </ul>
                   </div>
                   {/* <div className="title-4">...</div> */}
-                  <div className="flex flex-row gap-3 text-orange-600 italic py-2">
+                  <div className="flex flex-row gap-3 text-white/60 italic py-2">
                     <div>Under Developed</div>
                     {/* <div className="cursor-pointer">
                     <svg
@@ -142,7 +142,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                <div className="flex-1 flex flex-col justify-between text-white font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
@@ -156,7 +156,7 @@ export default function Project() {
                     </ul>
                   </div>
                   {/* <div className="title-4">...</div> */}
-                  <div className="flex flex-row gap-3 text-orange-600 italic py-2">
+                  <div className="flex flex-row gap-3 text-white/60 italic py-2">
                     <div>Live Preview</div>
                     <Link href={"https://www.genofax.com/</div>"}>
                       <div className="cursor-pointer">
@@ -194,7 +194,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                <div className="flex-1 flex flex-col justify-between text-white font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>
@@ -207,7 +207,7 @@ export default function Project() {
                     </ul>
                   </div>
                   {/* <div className="title-4">...</div> */}
-                  <div className="flex flex-row gap-3 text-orange-600 italic py-2">
+                  <div className="flex flex-row gap-3 text-white/60 italic py-2">
                     <div>Live Preview</div>
                     <Link href={"https://www.genofax.com/</div>"}>
                       <div className="cursor-pointer">
@@ -245,7 +245,7 @@ export default function Project() {
                     className="w-[100vw] h-auto object-cover rounded-md bg-black/25"
                   />
                 </div>
-                <div className="flex-1 flex flex-col justify-between text-orange-400 font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
+                <div className="flex-1 flex flex-col justify-between text-white font-thin text-xs !w-72 !whitespace-normal h-44 overflow-hidden overflow-y-auto">
                   <div className="max-h-32 sm:max-h-auto overflow-y-auto ">
                     <ul className="list-disc list-inside overflow-auto space-y-3">
                       <li>Implemented a new design for job sites.</li>
@@ -256,7 +256,7 @@ export default function Project() {
                     </ul>
                   </div>
                   {/* <div className="title-4">...</div> */}
-                  <div className="flex flex-row gap-3 text-orange-600 italic py-2">
+                  <div className="flex flex-row gap-3 text-white/60 italic py-2">
                     <div>Live Preview</div>
                     <Link href={"https://www.genofax.com/</div>"}>
                       <div className="cursor-pointer">
