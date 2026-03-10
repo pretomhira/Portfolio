@@ -8,13 +8,35 @@ export default function Experience() {
               <div className="title-2">Work Experience</div>
               <div className="flex flex-col gap-2">
                 <div className="text-teal-600 group-hover:text-teal-300  duration-700">
+                  Fraunhofer IIS
+                </div>
+                <div className="title-4 !whitespace-normal !w-auto">
+                  01.01.25 - 01.01.26
+                </div>
+                <div className="title-4 !whitespace-normal !w-auto">
+                  Software Engineer
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="text-teal-600 group-hover:text-teal-300  duration-700">
                   Mulytic Energy Solutions
                 </div>
                 <div className="title-4 !whitespace-normal !w-auto">
-                  01.06.22 - Present
+                  01.01.23 - 01.03.24
                 </div>
                 <div className="title-4 !whitespace-normal !w-auto">
-                  Software Engineer - Frontend
+                  Software Engineer
+                </div>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="text-teal-600 group-hover:text-teal-300  duration-700">
+                  Mulytic Labs Gmbh
+                </div>
+                <div className="title-4 !whitespace-normal !w-auto">
+                  01.07.22 - 31.12.22
+                </div>
+                <div className="title-4 !whitespace-normal !w-auto">
+                  Software Engineer
                 </div>
               </div>
               <div className="flex flex-row gap-2">
